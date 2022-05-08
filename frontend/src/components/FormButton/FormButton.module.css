@@ -1,0 +1,26 @@
+.show-form-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#show-form-button {
+    width: 70px;
+    height: 45px;
+}
+
+.not-logged{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    height: 60px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#show-form-button:focus{
+    background-color:royalblue;
+    box-shadow: none;
+}

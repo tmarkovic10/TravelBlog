@@ -1,0 +1,57 @@
+.form-card {
+    background-color: white;
+    width: 380px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
+}
+
+#form-title-card {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#form-title {
+    color: black;
+    font-size: 30px;
+}
+
+.show-password:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+#log-in {
+    background-color:royalblue;
+}
+
+#log-in:focus {
+    background-color:royalblue;
+    box-shadow: none;
+}
+
+#log-in:hover {
+    background-color:rgb(30,144,255);
+    border: 1px solid white;
+}
+
+.switch {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#switch-mode {
+    color: black;
+    background-color: transparent;
+}
+
+#switch-mode:focus {
+    box-shadow: none;
+}
+
+#switch-mode:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}

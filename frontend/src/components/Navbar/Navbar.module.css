@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@400;600;700&family=Patrick+Hand&display=swap');
+
+.navbar-card {
+    width: 70%;
+    margin: 10px auto;
+}
+
+#navbar {
+    background-color: rgb(0,127,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
+}
+
+.brand {
+    width: 100%;
+    font-family: 'Caveat', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-left: 70px;
+}
+
+.navbar-title {
+    font-size: 20px;
+}
+
+.navbar-logo {
+    width: 30px;
+}
+
+#log {
+    background-color:rgb(220,20,60);
+    color: white;
+    width: 60px;
+    height: 40px;
+}
+
+#log:focus {
+    background-color:rgb(220,20,60);
+    box-shadow: none;
+}
+
+@media screen and (max-width: 642px) {
+    .navbar-title {
+        font-size: 18px;
+    }
+    .navbar-card{
+        width: 100%;
+        margin: 10px auto;
+    }
+    #log {
+        background-color:rgb(220,20,60);
+        color: white;
+        width: 50px;
+        height: 40px;
+        margin-right: 50px;
+    }
+}
