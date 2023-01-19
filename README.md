@@ -30,6 +30,7 @@ This social media app allows users to:
 - Edit posts
 - Remove posts
 - Like posts
+
 Users need to log in to have access to listed actions. If they don't have an account there is sign up option.
 
 
